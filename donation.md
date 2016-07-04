@@ -5,7 +5,7 @@
 
 使用支付宝或微信手机客户端扫描下面对应的二维码捐赠：
 
-![wechat_alipay](//www.yascmf.com/assets/wechat_alipay.jpg)
+![wechat_alipay](http://www.yascmf.com/assets/wechat_alipay.jpg)
 
 所有打赏捐助记录会公布在官网和文档源码仓库中。
 
