@@ -20,7 +20,7 @@ touch .env
 
 ② 导入数据库，并修改 `.env` 配置文件：
 
-请将源码包根目录下 `yascmf_base.sql` 导入数据库，默认使用 `UTF-8` 编码，`utf8_unicode_ci`作为排序规则。
+请将源码包根目录下 `yascmf_base.sql` 导入数据库，默认使用 `UTF-8` 编码，`utf8_unicode_ci` 作为排序规则。
 
 请根据数据库与服务器实际情况修改 `.env` 配置文件，这里给出一个示例，你也可参考 `.env.example` 文件。
 
