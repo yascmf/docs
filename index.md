@@ -20,5 +20,6 @@ YASCMF官方文档
 * [第三方](third_party.md)
 * [前台会员](member.md)
 * [打赏捐助](donation.md)
+* [授权协议MIT](license.md)
 
 

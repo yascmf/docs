@@ -63,6 +63,12 @@ ADMIN_SITE=//base.yascmf.dev
 DOC_SITE=//base.yascmf.dev
 ```
 
+如果你不是通过常规80端口来访问，请配置域名时带上端口号，类似如下面：
+
+```ini
+DESKTOP_SITE=//localhost:8080
+```
+
 ④ 访问服务器绑定的域名，出现 `YASCMF` 字眼界面，说明您已经安装成功。
 
 ⑤ 登录后台，后台使用的超管帐号与密码均为 `admin`，登入之后，您可以体验一番。
