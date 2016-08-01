@@ -4,12 +4,34 @@
 
 >   官方在线文档地址：http://www.yascmf.com/docs/index
 
-### 贡献
+### 安装与演示
 
-你可以 `Fork` 本项目，修改文档，向原作者发出 `pull request` ，合理有效的请求会被接受并入到官方的 `master` 版本中。
+安装请参考：[docs/install.md](http://www.yascmf.com/docs/install.md)
+
+在线演示请参考：[docs/demo.md](http://www.yascmf.com/docs/demo.md)
+
+更多，请点击在线文档右侧目录栏。
+
+### 打赏捐助
+
+开源项目离不开各位朋友的支持，如果您觉得 YASCMF 系列软件/源码还不错，可以考虑打赏几元支持一下作者我。打赏捐助的钱会用于服务器和相关网站的运营。
+
+使用支付宝或微信手机客户端扫描下面对应的二维码捐赠：
+
+![wechat_alipay](http://www.yascmf.com/assets/wechat_alipay.jpg)
+
+最新打赏捐助记录：http://www.yascmf.com/docs/donation.md
+
+### 联系作者
+
+>   Email: raoyc2009#gmail.com （请修改改`#` 为`@`）  
+>   QQ群：260655062  
+
+### 贡献代码
+
+你可以 [`Fork`](https://github.com/yascmf/docs) 本文档，完成修改文档，向原作者发出 `pull request` ，合理有效的请求会被接受并入到官方的 `master` 版本中。
 
 当然，如果有使用或者开发上的问题，也可提出新的 [`issue`](https://github.com/yascmf/docs/issues/new) 。
-
 
 
 
