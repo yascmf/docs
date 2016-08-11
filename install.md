@@ -73,4 +73,7 @@ DESKTOP_SITE=//localhost:8080
 
 ⑤ 登录后台，后台使用的超管帐号与密码均为 `admin`，登入之后，您可以体验一番。
 
+## 公共静态资源配置
+
+有关配置公共静态资源的说明，请参考：https://github.com/yascmf/asset 。
 
