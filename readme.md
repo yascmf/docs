@@ -26,7 +26,7 @@
 
 ![wechat_alipay](http://www.yascmf.com/assets/wechat_alipay.jpg)
 
-最新打赏捐助记录：http://www.yascmf.com/docs/donation.md
+最新打赏支持记录：http://www.yascmf.com/docs/donation.md
 
 ### 联系作者
 
