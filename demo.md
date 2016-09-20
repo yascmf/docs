@@ -1,26 +1,11 @@
 # 在线演示
 
-官方线上站点已开启演示功能，请在浏览器中打开：[`https://base.yascmf.com/admin`](https://base.yascmf.com/admin) ，通过下面帐号体验一番。
-
-请注意：演示帐号没有任何写权限，操作过程中可能会出现权限不足的提醒页面；请勿修改下列帐号密码，以免影响他人演示体验。
+>   特别注意：在线演示站因攻击和滥用等原因已正式关闭，如需查看效果，请自行本地部署，感谢您的支持。
 
 2016-08-08更新：为避免滥用（发现某些人在演示站上传不可描述图片）以及出于安全考虑，在线演示网站已取消图片与文件上传功能，请自行下载源码部署。谢谢配合！
 
->   超管帐号  
-用户名：`admin`  
-密码：`admin`  
+2016-09-20：发现有人修改过演示站超管登录密码，已一个月有余，鉴于某些情况考虑，正式关闭演示站，后期开放可能其它功能与版本演示。
 
->   演示帐号  
-用户名：`demo`  
-密码：`demo123`  
+Online demonstration site is closed due to network attack and abuse.
 
-Try [online demonstration site](https://base.yascmf.com/admin) by using accounts below, please do not change their passwords.
-
->   super account  
->   username: `admin`  
->   password: `admin`  
->   
->   demo account  
->   username: `demo`  
->   password: `demo123`  
 

@@ -1,6 +1,7 @@
 导航
 * [YASCMF/BASE](https://github.com/yascmf/base)
-* [芽丝博客](http://www.yascmf.com/blog)
+* [芽丝博客](http://blog.yascmf.com/)
+* [芽丝轻社区](http://talker.yascmf.com/)
 
 基础文档
 * [读我](readme.md)
