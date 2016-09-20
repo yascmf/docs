@@ -6,28 +6,20 @@
 
 ### 桌面站点
 
-线上演示版本桌面站点地址：https://base.yascmf.com/
-
-演示桌面站点只有 `YASCMF` 宣传页页面，博客内容页面已被移除；但[官网主站博客](http://www.yascmf.com/blog)已更新新版主题，欢迎访问体验。
+基础版桌面站点只有 `YASCMF` 宣传页页面，博客内容页面已被移除；但[官方博客](http://blog.yascmf.com/)已更新新版主题，欢迎访问体验。
 
 ### API站点
 
-线上演示版本API站点地址：https://base.yascmf.com/api
+API站点也只提供了两个开放的 `API` 服务（身份证与IP归属 查询）。你可以通过访问下面 `URL` 地址来获取示例信息：
 
-API站点也只提供了两个开放的 `API` 服务（身份证与IP归属 查询）。你可以通过访问下面`URL`地址来获取示例信息：
-
->   https://base.yascmf.com/api/ip?ip=14.215.177.37  
->   https://base.yascmf.com/api/identity-card?pid=42032319930606629x  
+>   http://www.yascmf.com/api/ip?ip=14.215.177.37  
+>   http://www.yascmf.com/api/identity-card?pid=42032319930606629x  
 
 
 ### 文档站点
 
-线上演示版本文档站点：https://base.yascmf.com/docs/index
-
-演示文档站点提供了不完整的`YASCMF`文档，你可以访问[官网](http://www.yascmf.com)获取最新较全的文档。
+基础版文档站点提供了不完整的 `YASCMF` 文档，你可以访问[官网](http://www.yascmf.com/docs/index) 获取最新较全的文档。
 
 ### 管理后台站点
 
-线上演示版本管理后台站点：https://base.yascmf.com/admin
-
-你可以访问[演示](demo.md)获取帐号体验一番。
+管理后台站点默认使用 `admin` 作为路由前缀，可在配置中修改，绑定域名（如 `www.yascmf.dev`）部署到本地之后，通过 `http://www.yascmf.dev/admin` 即可访问。
