@@ -10,6 +10,7 @@
 
 YASCMF官方文档
 * [安装](install.md)
+* [常见问题](faq.md)
 * [在线演示](demo.md)
 * [多站点](site.md)
 * [配置](config.md)
