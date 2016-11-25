@@ -18,6 +18,8 @@ composer install
 touch .env
 ```
 
+>   `composer install` 到最后，可能会提示数据库错误，可以不用在意，或者你可以把第2步提前，然后进行 `composer install` 操作。
+
 ② 导入数据库，并修改 `.env` 配置文件：
 
 请将源码包根目录下 `yascmf_base.sql` 导入数据库，默认使用 `UTF-8` 编码，`utf8_unicode_ci` 作为排序规则。
