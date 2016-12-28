@@ -73,9 +73,13 @@ DESKTOP_SITE=//localhost:8080
 
 ④ 访问服务器绑定的域名，出现 `YASCMF` 字眼界面，说明您已经安装成功。
 
-⑤ 登录后台，后台使用的超管帐号与密码均为 `admin`，登入之后，您可以体验一番。
+⑤ 登录后台（//base.yascmf.dev/admin/），后台使用的超管帐号与密码均为 `admin`，登入之后，您可以体验一番。
 
 ## 公共静态资源配置
 
 有关配置公共静态资源的说明，请参考：https://github.com/yascmf/asset 。
+
+## editor.md 编辑器配置
+
+如果后台 `markdown` 编辑器异常，请参考： https://github.com/douyasi/laravel-editor-md 说明，删除 `public/vendor/editor.md` 目录，重新发布资源。
 

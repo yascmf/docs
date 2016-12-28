@@ -8,12 +8,15 @@
 
 基础版桌面站点只有 `YASCMF` 宣传页页面，博客内容页面已被移除；但[官方博客](http://blog.yascmf.com/)已更新新版主题，欢迎访问体验。
 
+前台已启用新的轻博客，下载 `base` 源码即可体验，使用 `markdown` 撰写博客的快感。
+
 ### API站点
 
-API站点也只提供了两个开放的 `API` 服务（身份证与IP归属 查询）。你可以通过访问下面 `URL` 地址来获取示例信息：
+API站点也只提供了三个开放的 `API` 服务（身份证归属地、IP归属与汉字转拼音查询）。你可以通过访问下面 `URL` 地址来获取示例信息：
 
 >   http://www.yascmf.com/api/ip?ip=14.215.177.37  
 >   http://www.yascmf.com/api/identity-card?pid=42032319930606629x  
+>   http://www.yascmf.app/api/pinyin?content=%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C
 
 
 ### 文档站点
