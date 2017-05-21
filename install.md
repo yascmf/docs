@@ -71,7 +71,9 @@ DOC_SITE=//base.yascmf.dev
 DESKTOP_SITE=//localhost:8080
 ```
 
-④ 访问服务器绑定的域名，出现 `YASCMF` 字眼界面，说明您已经安装成功。
+现在 `YASCMF` 支持使用内置的 `php artisan serve` 启动，只需要参考上面的将 `DESKTOP_SITE` 设置为默认的 `//localhost:8000` 值。
+
+④ 访问服务器绑定的域名，出现 `YASCMF` 或 `芽丝轻博客` 字眼界面，说明您已经安装成功。
 
 ⑤ 登录后台（//base.yascmf.dev/admin/），后台使用的超管帐号与密码均为 `admin`，登入之后，您可以体验一番。
 
