@@ -16,7 +16,7 @@ API站点也只提供了三个开放的 `API` 服务（身份证归属地、IP�
 
 >   http://www.yascmf.com/api/ip?ip=14.215.177.37  
 >   http://www.yascmf.com/api/identity-card?pid=42032319930606629x  
->   http://www.yascmf.app/api/pinyin?content=%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C
+>   http://www.yascmf.com/api/pinyin?content=%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C
 
 
 ### 文档站点
