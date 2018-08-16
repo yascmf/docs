@@ -12,11 +12,13 @@
 
 ### API站点
 
+>   特别注意，最新版中已移除IP归属地与身份证归属地查询两个服务，挪到 `yascmf/api` 项目中。
+
 API站点也只提供了三个开放的 `API` 服务（身份证归属地、IP归属与汉字转拼音查询）。你可以通过访问下面 `URL` 地址来获取示例信息：
 
->   http://www.yascmf.com/api/ip?ip=14.215.177.37  
->   http://www.yascmf.com/api/identity-card?pid=42032319930606629x  
->   http://www.yascmf.com/api/pinyin?content=%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C
+>   https://www.yascmf.com/api/ip?ip=14.215.177.37  
+>   https://www.yascmf.com/api/identity-card?pid=42032319930606629x  
+>   https://www.yascmf.com/api/pinyin?content=%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C
 
 
 ### 文档站点
