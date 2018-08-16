@@ -16,11 +16,12 @@ git clone https://github.com/yascmf/base.git
 cd base
 ```
 
-② 修改 `.env` 配置文件：
+② 修改 `.env` 配置文件，并安装依赖：
 
 ```bash
 cp .env.example .env
 vim .env
+composer install -vvv
 ```
 
 请根据数据库与服务器实际情况修改 `.env` 配置文件，这里给出一个示例，你也可参考 `.env.example` 文件。
