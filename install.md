@@ -14,15 +14,14 @@
 ```bash
 git clone https://github.com/yascmf/base.git
 cd base
-composer install
-touch .env
 ```
 
->   `composer install` 到最后，可能会提示数据库错误，可以不用在意，或者你可以把第2步提前，然后进行 `composer install` 操作。
+② 修改 `.env` 配置文件：
 
-② 导入数据库，并修改 `.env` 配置文件：
-
-请将源码包根目录下 `yascmf_base.sql` 导入数据库，默认使用 `UTF-8` 编码，`utf8_unicode_ci` 作为排序规则。
+```bash
+cp .env.example .env
+vim .env
+```
 
 请根据数据库与服务器实际情况修改 `.env` 配置文件，这里给出一个示例，你也可参考 `.env.example` 文件。
 
@@ -40,10 +39,10 @@ DB_PREFIX=yascmf_
 
 ......
 
-DESKTOP_SITE=//base.yascmf.dev
-API_SITE=//base.yascmf.dev
-ADMIN_SITE=//base.yascmf.dev
-DOC_SITE=//base.yascmf.dev
+DESKTOP_SITE=//base.yascmf.test
+API_SITE=//base.yascmf.test
+ADMIN_SITE=//base.yascmf.test
+DOC_SITE=//base.yascmf.test
 ```
 
 生成 `APP_KEY` 随机串可执行下面 `artisan` 命令：
@@ -52,17 +51,19 @@ DOC_SITE=//base.yascmf.dev
 php artisan key:generate
 ```
 
-③ 服务器绑定域名，并将文档根目录设置为源码包 `public` 目录下，给 `storage` 目录可写权限，如果后台需要上传图片请给 `public\uploads` 可写权限。
+③ 域名绑定：
 
-特别说明：请配置站点参数为你绑定的域名：
+服务器绑定域名，并将文档根目录设置为源码包 `public` 目录下，给 `storage` 目录可写权限，如果后台需要上传图片请给 `public\uploads` 可写权限。
 
-如果你是单域名站点，绑定的域名假设为 `base.yascmf.dev` ，那请配置所有站点域名参数为此域名：
+*特别说明：请配置站点参数为你绑定的域名。*
+
+如果你是单域名站点，绑定的域名假设为 `base.yascmf.test` ，那请配置所有站点域名参数为此域名：
 
 ```ini
-DESKTOP_SITE=//base.yascmf.dev
-API_SITE=//base.yascmf.dev
-ADMIN_SITE=//base.yascmf.dev
-DOC_SITE=//base.yascmf.dev
+DESKTOP_SITE=//base.yascmf.test
+API_SITE=//base.yascmf.test
+ADMIN_SITE=//base.yascmf.test
+DOC_SITE=//base.yascmf.test
 ```
 
 如果你不是通过常规80端口来访问，请配置域名时带上端口号，类似如下面：
@@ -73,9 +74,22 @@ DESKTOP_SITE=//localhost:8080
 
 现在 `YASCMF` 支持使用内置的 `php artisan serve` 启动，只需要参考上面的将 `DESKTOP_SITE` 设置为默认的 `//localhost:8000` 值。
 
-④ 访问服务器绑定的域名，出现 `YASCMF` 或 `芽丝轻博客` 字眼界面，说明您已经安装成功。
+④ 迁移数据：
 
-⑤ 登录后台（//base.yascmf.dev/admin/），后台使用的超管帐号与密码均为 `admin`，登入之后，您可以体验一番。
+目前已支持 `migrantion` ，不需要再手动导入数据库了。
+
+```bash
+php artisan migrate
+php artisan db:seed
+```
+
+④ 访问前台：
+
+访问服务器绑定的域名，出现 `YASCMF` 或 `芽丝轻博客` 字眼界面，说明您已经安装成功。
+
+⑤ 登录后台：
+
+输入 `http://base.yascmf.test/admin/` 或 `http://localhost:8080/admin` 网址，后台使用的超管帐号与密码均为 `admin` ，登入之后，您可以体验一番。
 
 ## 公共静态资源配置
 
