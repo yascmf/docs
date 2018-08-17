@@ -9,6 +9,7 @@
 * [Git设置与使用帮助](git.md)
 
 YASCMF官方文档
+* [更新日志](change-log.md)
 * [安装](install.md)
 * [常见问题](faq.md)
 * [在线演示](demo.md)
